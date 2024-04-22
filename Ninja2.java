@@ -71,7 +71,7 @@ public class Ninja2 {
         }
 
         // Terceira fase do jogo, o último confronto
-        System.out.println("Chegou o grande dia, cara a cara com Monkey D. Dragon, qual vai ser a sua decisão final? ");
+        System.out.println("Chegou o grande dia, o encontro  com Monkey D. Dragon, qual vai ser a sua decisão final? ");
         System.out.println("1. Evita o conflito, podendo ter chance de uma possivel revolta dos seus inimgos. Mas busca a paz e união dos Clãs instaveis.");
         System.out.println("2. Inicia um combate final para derrotar Monkey D. Dragon o líder tirano .");
         escolhaFinal = scanner.nextInt();
@@ -91,10 +91,10 @@ public class Ninja2 {
             System.out.println("Seu mestre é libertado, e você segue em busca de redenção.");
             System.out.println("Final de Redenção. Apesar das decisões tomadas, seguiu em busca da paz espiritual, fazendo com que deixase Monckey D. Dragon vivo. Seu povo o perduo pelas suas pervercidades, pois reconheceu seu arrependimento. Assim você prega a paz nos outros Clãs e ajuda a resolver conflitos sem a violencia .");
         } else {
-            System.out.println(" escolheu o caminho da vingança.Pois, não conseguiu enxerga que Monkey D. Dragon queria a guerra!Você");
+            System.out.println(" Escolheu o caminho da vingança.Pois, não conseguiu enxerga que Monkey D. Dragon queria inicia a grande  guerra!");
             System.out.println("Consegue resgatar seu mestre, mas a violência traz consequências.");
             System.out.println("Você se torna um fugitivo, condenado por sua sede de vingança. Onde o seu proprio povo o despresa por ser responsavel pro promover e incluir o seu povo a grande guerra!");
-            System.out.println("Vive na floresta fugindo, e lutando com os caçadores de recompença e cada vez mas ferido pelo seus inimigos, berando cada vez mas a morte. ");
+            System.out.println("Vive na bosque foragindo, e lutando com os caçadores de recompença e cada vez mas ferido pelo seus inimigos, berando cada vez mas a morte. ");
         }
 
         // Mostrar energia final do ninja
