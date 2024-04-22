@@ -29,27 +29,28 @@ public class Ninja1 {
         escolhas.add(escolha2);
 
         // Terceira fase do game , o ultimo comfronto.
-        System.out.println("Chegou o grande dia, cara a cara com Monkey D. Dragon, qual vai ser a sua decisão final? ");
-        System.out.println("1. Evita o conflito, podendo ter chance de uma possivel revolta dos seus inimgos. Mas busca a paz e união dos Clãs instaveis.");
+        System.out.println("Chegou o grande dia, o encontro com Monkey D. Dragon, qual vai ser a sua decisão final? ");
+        System.out.println("1.Evita o conflito, podendo ter chance de uma possivel revolta dos seus inimgos. Mas busca a paz e união dos Clãs.");
         System.out.println("2. Inicia um combate final para derrotar Monkey D. Dragon o líder tirano .");
         int escolhaFinal = scanner.nextInt();
         escolhas.add(escolhaFinal);
 
         // Resultado final , que tipo de ninja você é ? 
         if (!escolhas.contains(1)) {
-            System.out.println("Parabéns! Você é um herói! Todo o seu povo ama você, acabou com o lider tirano  sem mechucar o povo inocente, mostrando a honra para o inimigo e com isso o Clã Dos Revolucionários firzerão um acordo de paz .");
+            System.out.println("Parabéns! Você é um herói! Todo o seu povo o ama, acabou com o lider tirano sem machucar o povo inocente, mostrando a honra para o inimigo e com isso o Clã Dos Revolucionários firzerão um acordo de paz .");
+        
         } else if (escolhas.get(escolhas.size() - 1) == 1 && escolhas.contains(1)) {
             System.out.println("Você escolhe perdoar seus inimigos e busca a paz.");
             System.out.println("Seu mestre é libertado, e você segue em busca de redenção.");
-            System.out.println("Final de Redenção. Apesar das decisões tomadas, seguiu em busca da paz espiritual, fazendo com que deixase Monckey D. Dragon vivo. Seu povo o perduo pelas suas pervercidades, pois reconheceu seu arrependimento. Assim você prega a paz nos outros Clãs e ajuda a resolver conflitos sem a violencia .");
+            System.out.println("Final de Redenção. Apesar das decisões tomadas, seguiu em busca da paz espiritual, fazendo com que deixa-se Monckey D. Dragon vivo. Seu povo o perduo pelas suas pervercidades, pois reconheceu o seu arrependimento. Assim você segue prega a paz nos outros Clãs e ajuda a resolver conflitos sem a violencia .");
+        
         } else {
-            System.out.println("Você escolheu o caminho da vingança.Pois, não conseguiu enxerga que Monkey D. Dragon queria a guerra!");
-            System.out.println("Consegue resgatar seu mestre, mas a violência traz consequências.");
+            System.out.println(" Escolheu o caminho da vingança.Pois, não conseguiu enxerga que Monkey D. Dragon queria iniciar a grande guerra!");
+            System.out.println("você  conseguiu resgatar seu mestre, mas a violência traz consequências.");
             System.out.println("Você se torna um fugitivo, condenado por sua sede de vingança. Onde o seu proprio povo o despresa por ser responsavel pro promover e incluir o seu povo a grande guerra!");
-            System.out.println("Vive na floresta fugindo, e lutando com os caçadores de recompença e cada vez mas ferido pelo seus inimigos, berando cada vez mas a morte. ");
+            System.out.println("Vive no bosque foragindo e lutando com os caçadores de recompença, cada vez mas ferido pelo seus inimigos, berando cada vez mas a morte. ");
         }
 
         scanner.close();
     }
 }
-
